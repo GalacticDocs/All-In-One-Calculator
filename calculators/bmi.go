@@ -11,6 +11,8 @@ var Logger = log.ConfigureLogger(log.LoggerConfig{
 	Severity: log.InfoState,
 })
 
+// LOG ALL ENTRIES FOR ALL CALCULATORS IN MAPS (use:
+// https://github.com/GalacticDocs/store-go/blob/main/map.go)
 type IBMI struct {
 	Height float64
 	Weight float64
